@@ -1,0 +1,69 @@
+body {
+	font: 14px "Lucida Grande", "Trebuchet MS";
+	color: #3b3b3b;
+}
+
+h1,h2 {
+	font-family: Georgia;
+}
+
+h1 {
+	background-color: #3b3b3b;
+	color: #ddd;
+	padding: 5px;	
+}
+
+h2 {
+	background-color: #DDD;
+	padding-left: 5px;
+	margin: 0 0 0 -15px;
+	font-weight: normal;
+}
+
+.secao {
+	background-color: #FBFBEF;
+	padding-left: 15px;
+}
+
+label {
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+label:after {
+	content: ":";
+}
+
+a {
+	text-decoration:none;
+	color: #0080FF;
+}
+
+a:visited {
+	text-decoration:none;
+	color: #0101DF;
+}
+
+a:hover {
+	text-decoration:none;
+	color: #fa0;
+}
+
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	width:20%
+}
+
+th, td{
+	padding: 5px;
+}
+
+th{
+	text-align: left;
+	background-color: #aaa;
+}
+
+td{
+	background-color: #D8D8D8;
+}
